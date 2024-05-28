@@ -1,0 +1,14 @@
+﻿<h2>Oh no, looks like something has gone wrong</h2>
+<div>Message: @UnexpectedError.Message</div>
+
+@if (UnexpectedError != null)
+{
+    <div>Correlation id: @UnexpectedError.Message</div>
+}
+
+<a href="/">Home</a>
+
+@code {
+    [Parameter]
+    public Exception UnexpectedError { get; set; }
+}

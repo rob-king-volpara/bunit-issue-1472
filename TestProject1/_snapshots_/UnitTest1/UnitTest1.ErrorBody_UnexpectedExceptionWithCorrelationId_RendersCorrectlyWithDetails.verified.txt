@@ -1,0 +1,10 @@
+﻿{
+  Instance: {
+    UnexpectedError: {
+      $type: Exception,
+      Type: Exception,
+      Message: Guid_1
+    }
+  },
+  NodeCount: 9
+}
